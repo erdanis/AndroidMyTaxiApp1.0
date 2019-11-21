@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textViewLabel1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/bienvenida_id"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display2" />
+
+    <TextView
+        android:id="@+id/positioncapid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/positioncap"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/textstatusid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/textstatusid"
+        android:textAlignment="center"
+        android:textAppearance="@style/TextAppearance.AppCompat.Display1" />
+
+    <TextView
+        android:id="@+id/latitudtextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/textlatidud"
+        android:textSize="24sp" />
+
+    <TextView
+        android:id="@+id/longitudtextid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/textlongitud"
+        android:textSize="24sp" />
+
+    <Button
+        android:id="@+id/changestatusbt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:onClick="onChangeButtonPress"
+        android:text="@string/buttonchangestatus"
+        android:textSize="24sp" />
+
+</LinearLayout>

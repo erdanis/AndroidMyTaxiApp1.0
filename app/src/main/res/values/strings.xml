@@ -1,0 +1,68 @@
+<resources>
+    <string name="app_name">MyTaxiApp1.0</string>
+
+    <string name="tracking_enabled_notif">GPS Tracking Enabled. Tap to Stop</string>
+
+    <string name="bienvenida_id">Bienvenido: %s</string>
+    <string name="positioncap">Tu posicion es: %s</string>
+    <string name="textstatusid">Estado: %s</string>
+    <string name="buttonchangestatus">Cambiar Estado</string>
+
+    <string name="firebase_path">location</string>
+
+    <string name="newjobttile">Datos del Nuevo Trabajo:</string>
+    <string name="addressname">Nombre Direccion: %s</string>
+    <string name="fulladress">Direccion: %s</string>
+    <string name="last4number">Numero: %s</string>
+    <string name="genero">Genero: %s</string>
+    <string name="comment">Comentario: %s</string>
+
+    <string name="dialogmessage">Nuevo Trabajo: %s</string>
+
+    <string name="textlatidud">Latitud: %s</string>
+    <string name="textlongitud">Longitud: %s</string>
+
+    <string name="hint_user_id">User ID</string>
+
+    <string name="sign_in">Sign In</string>
+
+    <string name="sign_out">Sign Out</string>
+
+    <string name="ExecuteApp">Ejecutar App</string>
+
+    <string name="loading">Loading…</string>
+
+    <string name="signed_in">Signed In</string>
+    <string name="signed_out">Signed Out</string>
+    <string name="token_null">Token: null</string>
+    <string name="hint_email">Email</string>
+    <string name="hint_password">Password</string>
+
+    <string name="auth_failed">Authentication failed</string>
+
+    <string name="status_sign_in_failed">Sign-in failed</string>
+
+    <string name="emailpassword_status_fmt">Email User: %1$s (verified: %2$b)</string>
+    <string name="emailpassword_title_text">Email and Password</string>
+
+    <string name="id_fmt">User ID: %s</string>
+    <string name="email_fmt">Email: %s</string>
+
+    <string name="firebase_status_fmt">Firebase User: %s</string>
+
+    <string-array name="change_status">
+        <item>Desconectado</item>
+        <item>Activo</item>
+        <item>Ocupado</item>
+        <item>Receso</item>
+        <item>Problemas</item>
+    </string-array>
+    <string name="change_status_title">Cambiar estado:</string>
+
+    <string name="jobstatus">Estado: %s</string>
+
+    <string name="buttonjobstatus">Actualizar Estado</string>
+
+    <string name="updatejobstatus_1">¿Coincide %s con el número del cliente?</string>
+
+</resources>
